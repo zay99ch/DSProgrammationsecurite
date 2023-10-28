@@ -38,7 +38,7 @@ def charger_dictionnaire_de_fichier(nom_fichier):
     return dictionnaire
 
 # Charger le dictionnaire depuis le fichier
-nom_fichier_dictionnaire = "dic.txt"  # Remplacez par le nom de votre fichier
+nom_fichier_dictionnaire = "dic.txt"
 dictionnaire_de_mots = charger_dictionnaire_de_fichier(nom_fichier_dictionnaire)
 
 while True:
